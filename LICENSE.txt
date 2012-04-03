@@ -1,0 +1,17 @@
+SOFTWARE LICENSE AGREEMENT
+
+JSON-RPC 2.0 Shell, Copyright (c) Vladimir Dzhuvinov, 2009 - 2011
+
+
+By paying for this software license in full and downloading the software you 
+agree to the following terms:
+
+1. You may install and use the software for your benefit, on computers operated 
+   by you or on behalf of you.
+
+2. You may modify the software in order to adapt it to the needs of your
+   application, provided all original copyright notices are retained.
+
+3. The software is provided "as is", without any express or implied warranties.
+   In no event shall the author be held liable for any damages arising from the
+   use of the software.
