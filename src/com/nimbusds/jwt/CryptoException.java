@@ -5,7 +5,7 @@ package com.nimbusds.jwt;
  * Cryptographic exception.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-09)
+ * @version 1.9 (2012-03-09)
  */
 public class CryptoException extends Exception {
 

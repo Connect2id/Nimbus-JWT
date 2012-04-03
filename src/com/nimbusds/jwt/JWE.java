@@ -59,7 +59,7 @@ import javax.crypto.spec.SecretKeySpec;
  *
  * @author Axel Nennker
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-04-03)
+ * @version 1.9 (2012-04-03)
  */
 public class JWE {
 
@@ -200,7 +200,7 @@ public class JWE {
 		
 		int keylength;
 		
-		switch (header.getEncryptionAlgorithm()) {
+		switch (header.getEncryptionMethod()) {
 
 			case A128CBC:
 			case A128GCM:
@@ -250,7 +250,7 @@ public class JWE {
 			
 			byte[] preparedClearText = CompressionUtils.compressIfRequired(header, clearText);
 
-			switch (header.getEncryptionAlgorithm()) {
+			switch (header.getEncryptionMethod()) {
 
 				case A128CBC:
 				case A192CBC:
@@ -347,7 +347,7 @@ public class JWE {
 
 		int keylength;
 		
-		switch (header.getEncryptionAlgorithm()) {
+		switch (header.getEncryptionMethod()) {
 		
 			case A128CBC:
 			case A128GCM:
@@ -411,7 +411,7 @@ public class JWE {
 
 			byte[] clearText = null;
 
-			switch (header.getEncryptionAlgorithm()) {
+			switch (header.getEncryptionMethod()) {
 
 				case A128CBC:
 				case A192CBC:
@@ -449,8 +449,6 @@ public class JWE {
 			throw new JWEException("Couldn't decrypt: " + e.getMessage(), e);
 		} 
 	}
-
-	
 	
 	
 	/**

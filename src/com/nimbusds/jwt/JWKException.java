@@ -5,7 +5,7 @@ package com.nimbusds.jwt;
  * JSON Web Key (JWK) exception.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-18)
+ * @version 1.9 (2012-03-18)
  */
 public class JWKException extends Exception {
 

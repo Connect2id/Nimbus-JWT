@@ -11,7 +11,7 @@ import junit.framework.TestCase;
  * Tests JWE header parsing and serialisation.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-26)
+ * @version 1.9 (2012-03-26)
  */
 public class JWEHeaderTest extends TestCase {
 
@@ -39,7 +39,7 @@ public class JWEHeaderTest extends TestCase {
 		
 		assertNull(h.getType());
 		assertEquals(JWA.RSA1_5, h.getAlgorithm());
-		assertEquals(JWA.A256GCM, h.getEncryptionAlgorithm());
+		assertEquals(JWA.A256GCM, h.getEncryptionMethod());
 		assertEquals(new Base64URL("__79_Pv6-fg"), h.getInitializationVector());
 		assertEquals("https://example.com/public_key.jwk", h.getJWKURL().toString());
 	}
@@ -51,7 +51,7 @@ public class JWEHeaderTest extends TestCase {
 		JWEHeader h = new JWEHeader(JWA.RSA1_5);
 		
 		h.setType(Header.Type.JWT);
-		h.setEncryptionAlgorithm(JWA.A256GCM);
+		h.setEncryptionMethod(JWA.A256GCM);
 		h.setIntegrityAlgorithm(null);
 		h.setInitializationVector(new Base64URL("abc"));
 		h.setCompressionAlgorithm(CompressionAlgorithm.GZIP);
@@ -93,7 +93,7 @@ public class JWEHeaderTest extends TestCase {
 		
 		assertEquals(JWA.RSA1_5, h.getAlgorithm());
 		assertEquals(Header.Type.JWT, h.getType());
-		assertEquals(JWA.A256GCM, h.getEncryptionAlgorithm());
+		assertEquals(JWA.A256GCM, h.getEncryptionMethod());
 		assertNull(h.getIntegrityAlgorithm());
 		assertEquals("abc", h.getInitializationVector().toString());
 		assertEquals(CompressionAlgorithm.GZIP, h.getCompressionAlgorithm());

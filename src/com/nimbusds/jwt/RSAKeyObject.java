@@ -28,7 +28,7 @@ import net.minidev.json.JSONObject;
  * </pre>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-19)
+ * @version 1.9 (2012-03-19)
  */
 public final class RSAKeyObject extends JWKKeyObject {
 	

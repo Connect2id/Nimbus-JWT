@@ -13,7 +13,7 @@ import junit.framework.TestCase;
  * Tests encrypted JWTs.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-26)
+ * @version 1.9 (2012-03-26)
  */
 public class EncryptedJWTTest extends TestCase {
 	
@@ -22,7 +22,7 @@ public class EncryptedJWTTest extends TestCase {
 
 		JWEHeader h = new JWEHeader(JWA.RSA1_5);
 		h.setType(Header.Type.JWT);
-		h.setEncryptionAlgorithm(JWA.A128CBC);
+		h.setEncryptionMethod(JWA.A128CBC);
 
 		JSONObject claims = new JSONObject();
 		claims.put("iss", "http://nimbusds.com");
@@ -36,7 +36,7 @@ public class EncryptedJWTTest extends TestCase {
 		
 		ReadOnlyJWEHeader hOut = jwt.getHeader();
 		assertEquals(JWA.RSA1_5, hOut.getAlgorithm());
-		assertEquals(JWA.A128CBC, hOut.getEncryptionAlgorithm());
+		assertEquals(JWA.A128CBC, hOut.getEncryptionMethod());
 		assertEquals(Header.Type.JWT, hOut.getType());
 		assertTrue(hOut.getCustomParameters().isEmpty());
 		

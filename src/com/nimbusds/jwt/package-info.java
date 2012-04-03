@@ -30,6 +30,6 @@
  *     <li>JSON Smart for highly efficient parsing and serialisation of JSON.
  * </ul>
  *
- * @version 1.8 (2012-04-03)
+ * @version 1.9 (2012-04-03)
  */
 package com.nimbusds.jwt;

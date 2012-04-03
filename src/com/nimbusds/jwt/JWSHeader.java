@@ -49,7 +49,7 @@ import net.minidev.json.parser.ParseException;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-signature-01">JWS draft 01</a>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-26)
+ * @version 1.9 (2012-03-26)
  */
 public class JWSHeader extends CommonSEHeader implements ReadOnlyJWSHeader {
 

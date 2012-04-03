@@ -7,7 +7,7 @@ import junit.framework.TestCase;
 /**
  * Tests GZIP compression.
  *
- * @version 1.8 (2012-04-02)
+ * @version 1.9 (2012-04-02)
  */
 public class CompressionUtilsTest extends TestCase {
 

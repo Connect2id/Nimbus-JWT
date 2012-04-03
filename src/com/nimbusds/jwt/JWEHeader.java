@@ -56,7 +56,7 @@ import net.minidev.json.parser.ParseException;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-encryption-01">JWE draft 01</a>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-26)
+ * @version 1.9 (2012-04-03)
  */
 public class JWEHeader extends CommonSEHeader implements ReadOnlyJWEHeader {
 
@@ -116,25 +116,25 @@ public class JWEHeader extends CommonSEHeader implements ReadOnlyJWEHeader {
 	/**
 	 * @inheritDoc
 	 */
-	public JWA getEncryptionAlgorithm() {
+	public JWA getEncryptionMethod() {
 	
 		return enc;
 	}
 	
 	
 	/**
-	 * Sets the encryption algorithm ({@code enc}) parameter.
+	 * Sets the encryption method ({@code enc}) parameter.
 	 *
-	 * @param enc The encryption algorithm parameter, {@code null} if not 
+	 * @param enc The encryption method parameter, {@code null} if not 
 	 *            specified.
 	 *
 	 * @throws IllegalArgumentException If the specified algorithm is not
 	 *                                  for providing encryption.
 	 */
-	public void setEncryptionAlgorithm(final JWA enc) {
+	public void setEncryptionMethod(final JWA enc) {
 	
 		if (enc != null && ! enc.getType().equals(JWA.Type.ENCRYPTION))
-			throw new IllegalArgumentException("The encryption algorithm \"enc\" must be for encryption");
+			throw new IllegalArgumentException("The encryption method \"enc\" must be for encryption");
 		
 		this.enc = enc;
 	}
@@ -297,7 +297,7 @@ public class JWEHeader extends CommonSEHeader implements ReadOnlyJWEHeader {
 				}
 				else if (name.equals("enc")) {
 
-					h.setEncryptionAlgorithm(JWA.parse((String)value));
+					h.setEncryptionMethod(JWA.parse((String)value));
 				}
 				else if (name.equals("int")) {
 				

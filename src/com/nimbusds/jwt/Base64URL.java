@@ -15,7 +15,7 @@ import net.minidev.json.JSONValue;
  * <p>See RFC 4648.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-30)
+ * @version 1.9 (2012-03-30)
  */
 public class Base64URL implements JSONAware {
 

@@ -5,18 +5,18 @@ package com.nimbusds.jwt;
  * Read-only view of a {@link JWEHeader JWE header}.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.8 (2012-03-20)
+ * @version 1.9 (2012-04-03)
  */
 public interface ReadOnlyJWEHeader extends ReadOnlyCommonSEHeader {
 
 
 	/**
-	 * Gets the encryption algorithm ({@code enc}) parameter.
+	 * Gets the encryption method ({@code enc}) parameter.
 	 *
-	 * @return The encryption algorithm parameter, {@code null} if not 
+	 * @return The encryption method parameter, {@code null} if not 
 	 *         specified.
 	 */
-	public JWA getEncryptionAlgorithm();
+	public JWA getEncryptionMethod();
 	
 	
 	/**
