@@ -40,7 +40,7 @@ import org.bouncycastle.crypto.params.ParametersWithIV;
  *
  * @author Gert Van Ham
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-31)
+ * @version 1.9.1 (2012-03-31)
  */
 class Crypt {
 

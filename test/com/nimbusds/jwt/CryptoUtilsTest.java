@@ -19,7 +19,7 @@ import junit.framework.TestCase;
 /**
  * Tests the encryption utility class.
  *
- * @version 1.9 (2012-04-01)
+ * @version 1.9.1 (2012-04-01)
  */
 public class CryptoUtilsTest extends TestCase {
 

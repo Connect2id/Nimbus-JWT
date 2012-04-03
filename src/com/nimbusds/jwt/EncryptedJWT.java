@@ -16,7 +16,7 @@ import javax.crypto.SecretKey;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-encryption-01">JWE draft 01</a>.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-04-02)
+ * @version 1.9.1 (2012-04-02)
  */
 public class EncryptedJWT extends JWT {
 

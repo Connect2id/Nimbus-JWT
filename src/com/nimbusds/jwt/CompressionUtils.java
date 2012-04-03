@@ -15,7 +15,7 @@ import java.util.zip.GZIPOutputStream;
  * GZIP utilities for {@link JWE} clear text compression and decompression.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-04-02)
+ * @version 1.9.1 (2012-04-02)
  */
 class CompressionUtils {
 

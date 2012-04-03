@@ -7,7 +7,7 @@ package com.nimbusds.jwt;
  * <p>See <a href="http://tools.ietf.org/html/draft-jones-json-web-token-08">JWT draft 08</a>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-26)
+ * @version 1.9.1 (2012-03-26)
  */
 public class PlainJWT extends JWT {
 

@@ -8,7 +8,7 @@ import java.util.Map;
  * Read-only view of a {@link Header header}.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-22)
+ * @version 1.9.1 (2012-03-22)
  */
 public interface ReadOnlyHeader {
 

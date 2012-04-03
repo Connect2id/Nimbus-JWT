@@ -13,7 +13,7 @@ import net.minidev.json.JSONObject;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-encryption-01">JWE draft 01</a>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-30)
+ * @version 1.9.1 (2012-03-30)
  */
 public abstract class JWT {
 

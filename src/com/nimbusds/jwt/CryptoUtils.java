@@ -35,7 +35,7 @@ import org.bouncycastle.jce.provider.BouncyCastleProvider;
  *
  * @author Charlie Mortimore
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-04-01)
+ * @version 1.9.1 (2012-04-01)
  */
 class CryptoUtils {
 	

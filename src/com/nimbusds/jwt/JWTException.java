@@ -5,7 +5,7 @@ package com.nimbusds.jwt;
  * JSON Web Token (JWT) exception.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-02)
+ * @version 1.9.1 (2012-03-02)
  */
 public class JWTException extends Exception {
 

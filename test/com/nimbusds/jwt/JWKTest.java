@@ -10,7 +10,7 @@ import junit.framework.TestCase;
  * Tests JSON Web Key (JWK) parsing and serialisation.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-19)
+ * @version 1.9.1 (2012-03-19)
  */
 public class JWKTest extends TestCase {
 

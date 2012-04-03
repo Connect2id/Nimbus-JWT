@@ -39,3 +39,6 @@ version 1.8 (2012-04-03)
 version 1.9 (2012-04-03)
 	* Renames JWEHeader.{get|set}EncryptionAlgorithm() to
 	  JWEHeader.{get|set}EncryptionMethod().
+
+version 1.9.1 (2012-04-03)
+	* Upgrades JSON Smart JAR to 1.1.1.

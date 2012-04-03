@@ -59,7 +59,7 @@ import javax.crypto.spec.SecretKeySpec;
  *
  * @author Axel Nennker
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-04-03)
+ * @version 1.9.1 (2012-04-03)
  */
 public class JWE {
 

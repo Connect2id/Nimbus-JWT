@@ -18,7 +18,7 @@ import net.minidev.json.parser.ParseException;
  * will not be processed by this JWT implementation.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-26)
+ * @version 1.9.1 (2012-03-26)
  */
 public abstract class Header implements ReadOnlyHeader {
 

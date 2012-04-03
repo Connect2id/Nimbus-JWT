@@ -52,7 +52,7 @@ import net.minidev.json.parser.ParseException;
  * </pre>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-26)
+ * @version 1.9.1 (2012-03-26)
  */
 public class JWK {
 

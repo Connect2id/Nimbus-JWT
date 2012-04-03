@@ -36,7 +36,7 @@ import net.minidev.json.parser.JSONParser;
  * </pre>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-19)
+ * @version 1.9.1 (2012-03-19)
  */
 public abstract class JWKKeyObject {
 

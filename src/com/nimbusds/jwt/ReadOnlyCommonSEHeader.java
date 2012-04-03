@@ -8,7 +8,7 @@ import java.net.URL;
  * Read-only view of a {@link CommonSEHeader common JWS/JWE header}.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-20)
+ * @version 1.9.1 (2012-03-20)
  */
 public interface ReadOnlyCommonSEHeader extends ReadOnlyHeader {
 	

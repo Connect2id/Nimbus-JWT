@@ -11,7 +11,7 @@ import junit.framework.TestCase;
  * Tests JWE header parsing and serialisation.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-26)
+ * @version 1.9.1 (2012-03-26)
  */
 public class JWEHeaderTest extends TestCase {
 

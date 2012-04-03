@@ -5,7 +5,7 @@ package com.nimbusds.jwt;
  * JSON Web Encryption (JWE) exception.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9 (2012-03-20)
+ * @version 1.9.1 (2012-03-20)
  */
 public class JWEException extends Exception {
 
