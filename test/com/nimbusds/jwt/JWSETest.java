@@ -63,7 +63,7 @@ import junit.framework.TestCase;
  *
  * @author Axel Nennker
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-04-02)
+ * @version 1.10 (2012-04-02)
  */
 public class JWSETest extends TestCase {
 

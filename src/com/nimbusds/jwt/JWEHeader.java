@@ -56,7 +56,7 @@ import net.minidev.json.parser.ParseException;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-encryption-01">JWE draft 01</a>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-04-03)
+ * @version 1.10 (2012-04-03)
  */
 public class JWEHeader extends CommonSEHeader implements ReadOnlyJWEHeader {
 

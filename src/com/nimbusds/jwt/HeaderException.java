@@ -5,7 +5,7 @@ package com.nimbusds.jwt;
  * Header exception.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-22)
+ * @version 1.10 (2012-03-22)
  */
 public class HeaderException extends Exception {
 

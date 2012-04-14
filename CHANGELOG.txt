@@ -42,3 +42,6 @@ version 1.9 (2012-04-03)
 
 version 1.9.1 (2012-04-03)
 	* Upgrades JSON Smart JAR to 1.1.1.
+
+version 1.10 (2012-04-14)
+	* Introduces serialize() method to base abstract JWT class.

@@ -16,7 +16,7 @@ import java.security.interfaces.RSAPublicKey;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-signature-01">JWS draft 01</a>.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-30)
+ * @version 1.10 (2012-03-30)
  */
 public class SignedJWT extends JWT {
 

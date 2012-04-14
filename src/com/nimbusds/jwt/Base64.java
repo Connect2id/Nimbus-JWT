@@ -9,7 +9,7 @@ import net.minidev.json.JSONValue;
  * Base64-encoded object.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-19)
+ * @version 1.10 (2012-03-19)
  */
 public class Base64 implements JSONAware {
 	

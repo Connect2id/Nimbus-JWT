@@ -13,7 +13,7 @@ import junit.framework.TestCase;
  * Tests encrypted JWTs.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-26)
+ * @version 1.10 (2012-03-26)
  */
 public class EncryptedJWTTest extends TestCase {
 	

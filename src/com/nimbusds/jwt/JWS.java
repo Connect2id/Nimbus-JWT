@@ -62,7 +62,7 @@ import org.bouncycastle.math.ec.ECPoint;
  *
  * @author Axel Nennker
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-30)
+ * @version 1.10 (2012-03-30)
  */
 public class JWS {
 

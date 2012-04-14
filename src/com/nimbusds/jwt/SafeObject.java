@@ -31,7 +31,7 @@ import org.bouncycastle.util.encoders.Base64;
  * Erasable byte array store.
  *
  * @author Gert Van Ham, Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-09)
+ * @version 1.10 (2012-03-09)
  */
 class SafeObject {
 

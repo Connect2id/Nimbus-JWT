@@ -6,7 +6,7 @@ package com.nimbusds.jwt;
  * JSON Web Signature (JWS) specification.
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-30)
+ * @version 1.10 (2012-03-30)
  */
 public interface JWSService {
 

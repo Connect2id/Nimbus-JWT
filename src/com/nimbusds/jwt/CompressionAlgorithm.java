@@ -8,7 +8,7 @@ import java.text.ParseException;
  * Enumeration of the compression algorithms for JSON Web Encryption (JWE).
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-16)
+ * @version 1.10 (2012-03-16)
  */
 public enum CompressionAlgorithm {
 	

@@ -13,7 +13,7 @@ import net.minidev.json.JSONObject;
  * <p>See <a href="http://tools.ietf.org/html/draft-ietf-jose-json-web-encryption-01">JWE draft 01</a>
  *
  * @author Vladimir Dzhuvinov
- * @version 1.9.1 (2012-03-30)
+ * @version 1.10 (2012-04-14)
  */
 public abstract class JWT {
 
@@ -55,6 +55,17 @@ public abstract class JWT {
 	
 		return claimsSet;
 	}
+	
+	
+	/**
+	 * Serialises this JSON Web Token (JWT) to its canonical format.
+	 *
+	 * @return The serialised plain JWT.
+	 *
+	 * @throws IllegalStateException If the JWT is not in a state to allow
+	 *                               serialisation.
+	 */
+	public abstract String serialize();
 	
 	
 	/**
